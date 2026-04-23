@@ -140,6 +140,8 @@ If your week-1 pilot demonstrates that balance once, you have enough to scale it
 
 Good luck. Now go ship.
 
-— End of playbook —
+— End of the core playbook —
+
+When you're ready to look past week 1: [10-task-sources.md](./10-task-sources.md) for alternative task trackers (Linear, Jira, Asana) and [11-go-deep.md](./11-go-deep.md) for the next directions worth investing in.
 
 Back to [README.md](./README.md).

@@ -121,4 +121,4 @@
 
 SDLC work is **structured**. That is your single most important architectural fact. Do not let frameworks with agent-to-agent chatter sneak into your design; you'd be introducing open-ended-ness where determinism is available.
 
-Next: [04-roadmap.md](./04-roadmap.md).
+Next: [04-roadmap/](./04-roadmap/README.md).

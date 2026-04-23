@@ -42,12 +42,14 @@ Read in this order. Each file is self-contained, but they build on each other.
 | 1 | [01-learning-strategy.md](./01-learning-strategy.md) | How to actually spend your 21 hours. Study strategy and anti-patterns. |
 | 2 | [02-target-architecture.md](./02-target-architecture.md) | The recommended agentic architecture for your scenario, with reasoning. |
 | 3 | [03-architecture-alternatives.md](./03-architecture-alternatives.md) | Alternatives compared honestly. When to evolve away from the recommendation. |
-| 4 | [04-roadmap.md](./04-roadmap.md) | The 7-day execution plan. Day-by-day objectives, tasks, deliverables, DoD. |
+| 4 | [04-roadmap/](./04-roadmap/README.md) | The 7-day execution plan. One file per day; each step paired with the exact artifact to use. |
 | 5 | [05-playbook.md](./05-playbook.md) | Reusable framework you apply to future projects. Decision flows and rituals. |
-| 6 | [06-artifacts.md](./06-artifacts.md) | Concrete starters: prompts, subagents, skills, templates, checklists, CI, repo layout. |
+| 6 | [06-artifacts.md](./06-artifacts.md) | Canonical reference: prompts, subagents, skills, templates, checklists, CI, repo layout. Daily files link back here. |
 | 7 | [07-failure-modes.md](./07-failure-modes.md) | How agentic systems fail in production and how to prevent each mode. |
 | 8 | [08-tool-transfer.md](./08-tool-transfer.md) | Mapping Claude Code concepts to Devin and other tools. |
 | 9 | [09-what-good-looks-like.md](./09-what-good-looks-like.md) | End-state capabilities you should have on day 8. |
+| 10 | [10-task-sources.md](./10-task-sources.md) | Swap GitHub Issues for Linear / Jira / Asana without touching the pipeline. Worked Linear example. |
+| 11 | [11-go-deep.md](./11-go-deep.md) | What to explore next: memory upgrades, multi-agent frameworks, evals, observability-as-code. |
 
 ---
 
@@ -60,3 +62,10 @@ Read in this order. Each file is self-contained, but they build on each other.
 5. **One week, one pilot, one playbook.** Not three.
 
 Now go to [01-learning-strategy.md](./01-learning-strategy.md).
+
+### A reading order for different moods
+- **First read through** — go in order 01 → 11.
+- **Starting the week** — skim `01`, `02`, then live in `04-roadmap/` day by day.
+- **Setting up at the client** — start from `05-playbook.md` + `10-task-sources.md`.
+- **Something's broken** — jump to `07-failure-modes.md`.
+- **Planning the next quarter** — `11-go-deep.md`.
