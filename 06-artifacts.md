@@ -407,7 +407,6 @@ const doubled = computed(() => props.count * 2)
 <style scoped>
 /* nothing global */
 </style>
-```
 
 ## Rules
 - Always `<script setup lang="ts">`.
